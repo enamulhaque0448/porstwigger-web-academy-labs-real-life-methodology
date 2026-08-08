@@ -121,3 +121,14 @@ Content-Disposition: form-data; name="avatar"; filename="....//test.php"
 
 
 
+---
+
+### Related Next Steps to Explore
+
+* **File Upload Validation Bypasses:** Bypassing `Content-Type` validation, extension blacklists/whitelists, and image header checks.
+* **Polyglot File Uploads:** Embedding executable script payloads inside valid image EXIF metadata (JPEG/PNG).
+* **Local File Inclusion (LFI) Escalation:** Combining restricted file uploads with LFI to execute scripts when direct access is blocked.
+
+---
+
+> **Key Insight:** Path traversal in file uploads is not just about escaping a folder—it is the bridge that moves a harmless static file from a restricted storage directory into an active code-execution context on the web server.
