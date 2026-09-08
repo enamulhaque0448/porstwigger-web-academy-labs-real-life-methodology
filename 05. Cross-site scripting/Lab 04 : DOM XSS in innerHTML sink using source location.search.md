@@ -1,4 +1,4 @@
-```markdown
+
 # Lab Walkthrough: DOM XSS in `innerHTML` Sink using `location.search`
 
 * **Vulnerability Type:** DOM-Based Cross-Site Scripting (XSS)
